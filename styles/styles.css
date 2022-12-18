@@ -1,0 +1,66 @@
+body {
+  background-color: dodgerblue;
+  color: white;
+}
+.underline-text {
+  text-decoration: underline;
+}
+h1 {
+  color: purple;
+}
+.transparent-bg {
+  background-color: hsla(240, 100%, 100%, .5);
+}
+section {
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.short-width {
+  width: 75%;
+}
+h3 {
+  color: purple;
+}
+img {
+  border-style: double;
+  border-width: thick;
+  border-color: green;
+  width: 20%;
+}
+h2:hover {
+  background-color: pink;
+  width: 15%;
+  color: #000000;
+  text-transform: uppercase;
+}
+.info {
+  border-style: none;
+
+}
+li {
+  color: black;
+  font-style: italic;
+}
+.info p {
+  color: orange;
+}
+.important-quote {
+  color: rgb(2, 97, 6);
+}
+q {
+  color: rgb(0, 0, 0);
+}
+footer {
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: red;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  background-color: lightgrey;
+}
+footer p {
+  color: black;
+}

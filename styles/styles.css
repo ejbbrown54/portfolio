@@ -36,6 +36,12 @@ h2:hover {
   color: #000000;
   text-transform: uppercase;
 }
+.black-white:hover {
+  background-color: white;
+  width: 50%;
+  color: black;
+  text-transform: lowercase;
+}
 .info {
   border-style: none;
 

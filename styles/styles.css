@@ -1,47 +1,50 @@
 body {
-  background-color: dodgerblue;
-  color: white;
+  background-image: url('https://images.unsplash.com/photo-1612178537253-bccd437b730e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fHBhdHRlcm4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+  background-size: contain;
+  font-family: Arial, sans-serif;
+
 }
+
 .underline-text {
   text-decoration: underline;
 }
+
 h1 {
-  color: purple;
+  color: black;
 }
+
 .transparent-bg {
   background-color: hsla(240, 100%, 100%, .5);
 }
+
 section {
-  border-style: solid;
-  border-width: 1px;
-  border-color: red;
   padding: 1rem;
   margin-top: 2rem;
 }
+
 .short-width {
   width: 75%;
 }
-h3 {
-  color: purple;
+
+article {
+  margin-top: 3em;
 }
+
 img {
   border-style: double;
   border-width: thick;
   border-color: green;
   width: 20%;
 }
-h2:hover {
-  background-color: pink;
-  width: 15%;
-  color: #000000;
-  text-transform: uppercase;
+
+a {
+  text-decoration: none;
 }
-.black-white:hover {
-  background-color: white;
-  width: 50%;
-  color: black;
-  text-transform: lowercase;
+
+a:hover {
+  text-decoration: underline;
 }
+
 .info {
   border-style: none;
 
@@ -50,23 +53,7 @@ li {
   color: black;
   font-style: italic;
 }
+
 .info p {
   color: orange;
-}
-.important-quote {
-  color: rgb(2, 97, 6);
-}
-q {
-  color: rgb(0, 0, 0);
-}
-footer {
-  border-top-style: solid;
-  border-width: 1px;
-  border-color: red;
-  padding-top: 2rem;
-  padding-left: 3rem;
-  background-color: lightgrey;
-}
-footer p {
-  color: black;
 }

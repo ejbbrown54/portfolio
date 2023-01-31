@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  /* Photo credit for the background image...where should it go on the webpage?: Photo by Mustafa Çimen from Pexels: https://www.pexels.com/photo/a-pathway-in-a-foggy-forest-14806002/ */
+  background-image: url("https://images.pexels.com/photos/14806002/pexels-photo-14806002.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load");
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .9rem;
+  margin-top: 6em;
+  padding: 6em;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8em;
+  display: flex;
+  align-items: center;
+}
+header * {
+  display: inline;
+}
+
+header ul {
+  margin-left: 2rem;
+}
+
+header li {
+  margin: 1rem;
+}
+
+header li a {
+  text-decoration: none;
+  color: black;
+}
+
+header li a:hover {
+  font-family: 'Shadows Into Light', sans-serif;
+  text-transform: uppercase;
+  font-size: 120%;
+  font-weight: bold;
+  color: #00c39d;
+}
+
+#page-name {
+  padding-left: 3.5em;
+  font-family: 'Shadows Into Light', sans-serif;
+  font-weight: bolder;
+  font-size: 450%;
+}
+
+#page-footer {
+  width: 65%;
+  text-align: center;
+  color: black;
+  font-size: 200%;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
+
+.gray-section {
+  /*border: 2px groove white;*/
+  background-color: hsla(0, 0%, 0%, 0.4);
+  padding: 3rem;
+  margin-bottom: 10em;
+  text-align: center;
+}
+
+.flex-space-around {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.white-font {
+  color: white;
+}
+
+.article-margins {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.h3-top-margin {
+  margin-top: 4rem;
+}
+
+img[src="images/space-needle.jpg"] {
+  width: 20%;
+  border: .4em solid black;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 300%;
+}
+
+h3 {
+  font-family: 'Shadows Into Light', sans-serif;
+  text-transform: uppercase;
+  font-size: 200%;
+  color: #00c39d;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+.standout-text {
+  color: #00c39d;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: white;
+}
+
+.fa-camera {
+  font-size: 300%;
+}
+
+img[src^="https"] {
+  width: 100%;
+  border: .7em solid white;
+}
+
+img[src^="https"]:hover {
+  border: .7em solid #00c39d;
+  border-radius: 1em;
+}
+
+figure:hover {
+  color: #00c39d;
+}

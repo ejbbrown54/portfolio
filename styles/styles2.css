@@ -9,7 +9,7 @@ body {
   background-image: url("https://images.pexels.com/photos/14806002/pexels-photo-14806002.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load");
   background-size: cover;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: .9rem;
+  font-size: 1rem;
   margin-top: 6em;
   padding: 6em;
 }
@@ -78,8 +78,8 @@ header li a:hover {
 
 .flex-space-around {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .white-font {
@@ -126,16 +126,34 @@ h3 {
   font-size: 300%;
 }
 
-img[src^="https"] {
-  width: 100%;
-  border: .7em solid white;
-}
-
-img[src^="https"]:hover {
-  border: .7em solid #00c39d;
-  border-radius: 1em;
+.no-bullet {
+  list-style-type: none;
 }
 
 figure:hover {
   color: #00c39d;
+}
+
+.alternate-colors *:hover {
+  font-size: 150%;
+}
+
+.about p:nth-child(4n+1) {
+  font-style: italic;
+}
+
+.alternate-colors li:nth-child(odd) {
+  color: #00c39d;
+}
+
+img[src^="https"]:hover {
+  border: .7em solid #00c39d;
+  border-radius: 3em;
+}
+
+img[src^="https"] {
+  width: 80%;
+  border: .7em solid white;
+  transition-property: border-radius;
+  transition-duration: 2s;
 }

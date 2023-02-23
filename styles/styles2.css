@@ -172,4 +172,36 @@ button, input, select, textarea {
 
 form {
   background-color: white;
+  padding-top: 2em;
+  padding-right: 3em;
+  padding-bottom: 3em;
+  padding-left: 3em;
+  border-radius: 40px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset input {
+  display: inline;
+}
+
+input[type=submit]:focus {
+  border-color: #00c39d;
+  border-width: thick;
+}
+
+.checkbox label {
+  display: block;
+}
+
+input[type=text]:focus {
+  background-color: #00c39d;
+  outline: none;
+}
+
+input[type=email]:focus {
+  background-color: #00c39d;
+  outline: none;
 }

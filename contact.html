@@ -25,7 +25,7 @@
     <main>
       <form method="GET">
           <h1>Want a Quote?</h1>
-
+          <p>Tell us a little about yourself and what you're looking for! One of our staff will get back to you with a quote.</p>
             <label>First Name:
               <input type="text" name="firstName">
             </label>
@@ -35,75 +35,60 @@
             </label>
 
             <label>Contact Email:
-              <input type="email" name="applicantEmail">
+              <input type="email" name="contactEmail">
             </label>
 
-            <label>What city are you in?
-              <input type="text" name="applicantCity">
+            <label>Contact Phone:
+              <input type="text" name="contactPhone">
             </label>
 
-            <label>How many pets do you have?
-              <input type="number" name="petCount">
-            </label>
-
-            <label>Additional information about your request:
-              <textarea name="applicantReason" rows="4" cols="50">Because I don't have enough cat hair on my sofa!
-              </textarea>
-            </label>
-
-            <fieldset class="checkbox">What type of photography service are you interested in?
-
-              <label>
-                <input type="checkbox" name="species" value="dogs">Children
-                <span class="checkmark"></span>
-              </label>
-              <label>
-                <input type="checkbox" name="species" value="cats">Pets
-                <span class="checkmark"></span>
-              </label>
-              <label>
-                <input type="checkbox" name="species" value="birds">Professional Headshots
-                <span class="checkmark"></span>
-              </label>
-              <label>
-                <input type="checkbox" name="species" value="hamsters">Family
-                <span class="checkmark"></span>
-              </label>
-              <label>
-                <input type="checkbox" name="species" value="snakes">Wedding/Engagement
-                <span class="checkmark"></span>
-              </label>
-              <label>
-                <input type="checkbox" name="species" value="fish">Other Special Event
-                <span class="checkmark"></span>
-              </label>
-            </fieldset>
-
-            <fieldset>Have you had professional portraits done in the past?
-              <label>
-                <input type="radio" name="special" value="yes">Yes
-              </label>
-
-              <label>
-                <input type="radio" name="special" value="no">No
-              </label>
-            </fieldset>
-
-            <label>If you are interested in pet photography, how many pets?
-            <!--<select name="hours" size="3" multiple> -->
-              <select name="hours">
-                <option value="">Please select</option>
-                <option value="few">less than 10</option>
-                <option value="some">10 to 16</option>
-                <option value="many">more than 16</option>
+            <label>What type of session(s) are you interested in? You may select more than one:
+              <select name="session" size="3" multiple>
+                <option value="couple">Engagement/Wedding</option>
+                <option value="family">Family Portraits</option>
+                <option value="child">Children (under 12)</option>
+                <option value="grad">Graduation/Senior Portraits</option>
+                <option value="pet">Pets</option>
+                <option value="event">Corporate/Special Event</option>
+                <option value="other">Other</option>
               </select>
             </label>
 
-            <label>To create an account, enter a password
-              <input type="password" name="accountPW">
+            <fieldset class="checkbox">Are you inquiring about an outdoor or indoor shoot? Check all that apply:
+              <label>
+                <input type="checkbox" name="shootType" value="outdoor">Outdoor
+                <span class="checkmark"></span>
+              </label>
+              <label>
+                <input type="checkbox" name="shootType" value="studio">Indoor (Our studio)
+                <span class="checkmark"></span>
+              </label>
+              <label>
+                <input type="checkbox" name="shootType" value="onLocation">Indoor (Other Location)
+                <span class="checkmark"></span>
+              </label>
+            </fieldset>
+
+            <fieldset class="referral">Did you find us through a referral?
+              <label>
+                <input type="radio" name="referred" value="yes">Yes
+              </label>
+
+              <label>
+                <input type="radio" name="referred" value="no">No
+              </label>
+              <p>If yes, please tell us who referred you:</p>
+              <label>Referral Name:
+                <input type="text" name="referralName">
+              </label>
+            </fieldset>
+
+            <label>Additional information about your request:
+              <textarea name="comments" rows="4" cols="50">
+              </textarea>
             </label>
 
-            <input type="submit" value="Apply Now!">
+            <input type="submit" value="Submit Inquiry">
           </form>
 
     </main>

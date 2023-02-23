@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles2.css">
+    <script src="https://kit.fontawesome.com/ebcb7ce203.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="page-name" >VJB Studio</h1>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+          <li><a href="#">Photography Services</a></li>
+          <li><a href="#">Lessons</a></li>
+          <li><a href="#">Rates</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form method="GET">
+          <h1>Want a Quote?</h1>
+
+            <label>First Name:
+              <input type="text" name="firstName">
+            </label>
+
+            <label>Last Name:
+              <input type="text" name="lastName">
+            </label>
+
+            <label>Contact Email:
+              <input type="email" name="applicantEmail">
+            </label>
+
+            <label>What city are you in?
+              <input type="text" name="applicantCity">
+            </label>
+
+            <label>How many pets do you have?
+              <input type="number" name="petCount">
+            </label>
+
+            <label>Additional information about your request:
+              <textarea name="applicantReason" rows="4" cols="50">Because I don't have enough cat hair on my sofa!
+              </textarea>
+            </label>
+
+            <fieldset class="checkbox">What type of photography service are you interested in?
+
+              <label>
+                <input type="checkbox" name="species" value="dogs">Children
+                <span class="checkmark"></span>
+              </label>
+              <label>
+                <input type="checkbox" name="species" value="cats">Pets
+                <span class="checkmark"></span>
+              </label>
+              <label>
+                <input type="checkbox" name="species" value="birds">Professional Headshots
+                <span class="checkmark"></span>
+              </label>
+              <label>
+                <input type="checkbox" name="species" value="hamsters">Family
+                <span class="checkmark"></span>
+              </label>
+              <label>
+                <input type="checkbox" name="species" value="snakes">Wedding/Engagement
+                <span class="checkmark"></span>
+              </label>
+              <label>
+                <input type="checkbox" name="species" value="fish">Other Special Event
+                <span class="checkmark"></span>
+              </label>
+            </fieldset>
+
+            <fieldset>Have you had professional portraits done in the past?
+              <label>
+                <input type="radio" name="special" value="yes">Yes
+              </label>
+
+              <label>
+                <input type="radio" name="special" value="no">No
+              </label>
+            </fieldset>
+
+            <label>If you are interested in pet photography, how many pets?
+            <!--<select name="hours" size="3" multiple> -->
+              <select name="hours">
+                <option value="">Please select</option>
+                <option value="few">less than 10</option>
+                <option value="some">10 to 16</option>
+                <option value="many">more than 16</option>
+              </select>
+            </label>
+
+            <label>To create an account, enter a password
+              <input type="password" name="accountPW">
+            </label>
+
+            <input type="submit" value="Apply Now!">
+          </form>
+
+    </main>
+  </body>
+</html>

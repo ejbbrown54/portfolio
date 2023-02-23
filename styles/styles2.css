@@ -5,7 +5,6 @@
 
 body {
   display: block;
-  /* Photo credit for the background image...where should it go on the webpage?: Photo by Mustafa Çimen from Pexels: https://www.pexels.com/photo/a-pathway-in-a-foggy-forest-14806002/ */
   background-image: url("https://images.pexels.com/photos/14806002/pexels-photo-14806002.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load");
   background-size: cover;
   font-family: Helvetica, Arial, sans-serif;
@@ -161,4 +160,16 @@ img[src^="https"] {
   border: .7em solid white;
   transition-property: border-radius;
   transition-duration: 2s;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+form {
+  background-color: white;
 }
